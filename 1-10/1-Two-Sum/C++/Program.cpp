@@ -16,6 +16,7 @@ public:
                 return {hashMap[target - nums[i]], i};
             hashMap[nums[i]] = i;
         }
+        return {1,1};
     }
 };
 
